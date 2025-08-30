@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "System's Engineer(SRE), I love solving problems and building products that just work, find me on X.",
   summary:
-    "A part from building EKS platforms, I'm interested in AI & ML R&D, mostly for my own **amusement**, I tweet under @Sentient_Radar - Python for DataScience, AI agents. A bit about me [I have a degree in Electronic Engineering, a Master in Information and Communication Technology and AI & ML training](/#education), [Helped build startups and worked in financial sector companies as an SRE], and [My first ML hackaton](/#hackathons).",
+    "I design and build systems grounded in first principles, with a passion for advancing AI and ML research and development. I share insights and projects on X under @Sentient_Radar, focusing on Python for Data Science and AI agent development. My background includes a degree in Electronic Engineering, a Master's in Information and Communication Technology, and specialized training in AI and ML. I’ve contributed to startups and served as an SRE in the financial sector, with hands-on experience in innovative projects, including my first ML hackathon.",
   avatarUrl: "https://media.licdn.com/dms/image/v2/C4D03AQFffiN3l93H8g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1655726289562?e=1730937600&v=beta&t=JCE7_qIX1DycwMPldP1KWV6zzXpQDBDV8Bz1773p84U",
   skills: [
     "Python for Data Science",
@@ -201,6 +201,23 @@ export const DATA = {
       image: "",
       video: "",
     },
+    {
+      title: "er-med-assist",
+      href: "https://er-med-assist-sentientradar.replit.app",
+      dates: "",
+      active: true,
+      description: "An AI enabled platform aimed at providing Doctors and Patients control over their health journey.",
+      technologies: ["AI", "Web Platform", "Healthcare"],
+      links: [
+        {
+          type: "Live Demo",
+          href: "https://er-med-assist-sentientradar.replit.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
  ],
   hackathons: [
     {
@@ -213,6 +230,21 @@ export const DATA = {
         "https://photos.app.goo.gl/2FjZqVZ7EdArrCf58",
       mlh: "",
       links: [],
+    },
+    {
+      title: "X-ray lite",
+      dates: "March 2025",
+      location: "Sydney, Australia",
+      description: "Developed a lightweight X-ray analysis tool using AI.",
+      image: "",
+      mlh: "",
+      links: [
+        {
+          type: "Live Demo",
+          href: "https://xray-lite.replit.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
     },
   ],
 } as const;
