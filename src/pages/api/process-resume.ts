@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import groq from '@sanity/groq';
+import groq from 'groq';
 import { createClient } from '@sanity/client';
 
 interface Profile {

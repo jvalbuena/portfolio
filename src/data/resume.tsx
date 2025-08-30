@@ -240,7 +240,7 @@ export const DATA = {
       mlh: "",
       links: [
         {
-          type: "Live Demo",
+          title: "Live Demo",
           href: "https://xray-lite.replit.app/",
           icon: <Icons.globe className="size-3" />,
         },
