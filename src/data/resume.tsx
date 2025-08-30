@@ -3,14 +3,14 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Julian Valbuena",
-  initials: "JV",
+  initials: "https://www.jvev.link/",
   url: "https://jv.io",
   location: "Sydney, AU",
   locationLink: "https://www.google.com/maps/place/sydney",
   description:
-    "Engineer (SRE), passionate about bulding ML & AI driven products. I love solving problems and building products that make a difference. find me on twitter.",
+    "System's Engineer(SRE), I love solving problems and building products that just work, find me on X.",
   summary:
-    "2024 a wave of AI startups spawned all over the world, I tweet under Sentient Radar mainly to research and learn about agents and hot to improve efficiency of knowledge workers. In the past, [I pursued a degree in Electronic Engineering, a Master in Information and Communication Technology and AI & ML training](/#education), [Helped build startups and worked in financial sector companies as an SRE], and [My first ML hackaton](/#hackathons).",
+    "I design and build systems grounded in first principles, with a passion for advancing AI and ML research and development. I share insights and projects on X under @Sentient_Radar, focusing on Python for Data Science and AI agent development. My background includes a degree in Electronic Engineering, a Master's in Information and Communication Technology, and specialized training in AI and ML. I’ve contributed to startups and served as an SRE in the financial sector, with hands-on experience in innovative projects, including my first ML hackathon.",
   avatarUrl: "https://media.licdn.com/dms/image/v2/C4D03AQFffiN3l93H8g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1655726289562?e=1730937600&v=beta&t=JCE7_qIX1DycwMPldP1KWV6zzXpQDBDV8Bz1773p84U",
   skills: [
     "Python for Data Science",
@@ -77,7 +77,7 @@ export const DATA = {
       start: "July 2013",
       end: "Current",
       description:
-        "Migrating appliations to the cloud, ensuring cost, reliability, security and performance criteria are met.",
+        "Modernising and migrating apps to EKS, solving performance and reliability issues, optimising for cost.",
     },
     {
       company: "Ninefold",
@@ -98,8 +98,8 @@ export const DATA = {
       location: "Sydney, NSW",
       title: "Infrastructure Engineer",
       logoUrl: "https://nextgen.net/assets/images/Home/nextgen-logo.png",
-      start: "January 2020",
-      end: "April 2020",
+      start: "January 2012",
+      end: "April 2008",
       description:
         "P2V and V2V migrations of applications to private cloud, storage and network engineering.",
     }
@@ -123,8 +123,8 @@ export const DATA = {
     },
     {
       school: "Universidad Pontificia Bolivariana",
-      href: "https://wlu.ca",
-      degree: "Bachelor's Degree of Business Administration (BBA)",
+      href: "https://www.upb.edu.co/es/pregrados/ingenieria-electronica-bucaramanga",
+      degree: "Electronic Engineer",
       logoUrl: "https://www.upb.edu.co/wcs_statics/pp/img/Logo-UPB-2022.svg",
       start: "1996",
       end: "2000",
@@ -154,6 +154,70 @@ export const DATA = {
       image: "",
       video: "",
     },
+    {
+      title: "Classification Model",
+      href: "https://docs.google.com/presentation/d/e/2PACX-1vSnuusiMWIUSzOTgEyVGHEgzqSEiOYWhFrtJx13F-Ltiz6yFwYSs6X6pVNZZbilV-ScllJ0ll0WiaCK/embed?start=true&loop=false&delayms=3000",
+      dates: "Feb 2024",
+      active: false,
+      description:
+        "Developed a classification model, performed EDA, build a decision trees and Random Forests",
+      technologies: [
+        "RAG",
+        "Python",
+        "Google Colab",
+        "GPU",
+        "PineconeDB"
+      ],
+      links: [
+        {
+          type: "Hackathon Workbook",
+          href: "https://github.com/jvalbuena/ML-notebooks/blob/main/Hackathon_BTTF.ipynb",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "CrewAI Helper Crew",
+      href: "https://github.com/jvalbuena/ai",
+      dates: "Oct 2024",
+      active: true,
+      description:
+        "CrewAI multi-agent research crew, runs locally with ollama",
+      technologies: [
+        "CrewAI",
+        "Python",
+        "Serper.dev",
+        "GPU",
+      ],
+      links: [
+        {
+          type: "CrewAI Helper Crew",
+          href: "https://github.com/jvalbuena/ai",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "er-med-assist",
+      href: "https://er-med-assist-sentientradar.replit.app",
+      dates: "",
+      active: true,
+      description: "An AI enabled platform aimed at providing Doctors and Patients control over their health journey.",
+      technologies: ["AI", "Web Platform", "Healthcare"],
+      links: [
+        {
+          type: "Live Demo",
+          href: "https://er-med-assist-sentientradar.replit.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
  ],
   hackathons: [
     {
@@ -166,6 +230,21 @@ export const DATA = {
         "https://photos.app.goo.gl/2FjZqVZ7EdArrCf58",
       mlh: "",
       links: [],
+    },
+    {
+      title: "X-ray lite",
+      dates: "March 2025",
+      location: "Sydney, Australia",
+      description: "Developed a lightweight X-ray analysis tool using AI.",
+      image: "",
+      mlh: "",
+      links: [
+        {
+          type: "Live Demo",
+          href: "https://xray-lite.replit.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
     },
   ],
 } as const;
