@@ -32,7 +32,7 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/jvalbuena/jv",
+        url: "https://github.com/jvalbuena",
         icon: Icons.github,
 
         navbar: true,
@@ -246,5 +246,35 @@ export const DATA = {
         },
       ],
     },
+      {
+        title: "Prompt Sculptor",
+        dates: "Aug 2025",
+        location: "",
+        description: "Prompt Sculptor is a personal prompt engineering tool that helps you craft and manage your AI prompts effectively.",
+        image: "",
+        mlh: "",
+        links: [
+          {
+            type: "Live Demo",
+            href: "https://prompt-sculptor-sentientradar.replit.app/",
+            icon: <Icons.globe className="size-3" />,
+          },
+        ],
+      },
+        {
+          title: "k8agent",
+          dates: "",
+          location: "",
+          description: "An SRE ready environment for Kubernetes monitoring setup with Prometheus, Grafana, and automated load testing capabilities.",
+          image: "",
+          mlh: "",
+          links: [
+            {
+              type: "GitHub",
+              href: "https://github.com/jvalbuena/k8agent",
+              icon: <Icons.github className="size-3" />,
+            },
+          ],
+        },
   ],
 } as const;
