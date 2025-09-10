@@ -240,7 +240,7 @@ export const DATA = {
       mlh: "",
       links: [
         {
-          type: "Live Demo",
+          title: "Live Demo",
           href: "https://xray-lite.replit.app/",
           icon: <Icons.globe className="size-3" />,
         },
@@ -255,7 +255,7 @@ export const DATA = {
         mlh: "",
         links: [
           {
-            type: "Live Demo",
+      title: "Live Demo",
             href: "https://prompt-sculptor-sentientradar.replit.app/",
             icon: <Icons.globe className="size-3" />,
           },
@@ -270,7 +270,7 @@ export const DATA = {
           mlh: "",
           links: [
             {
-              type: "GitHub",
+        title: "GitHub",
               href: "https://github.com/jvalbuena/k8agent",
               icon: <Icons.github className="size-3" />,
             },
