@@ -11,7 +11,7 @@ export const DATA = {
     "System's Engineer(SRE), I love solving problems and building products that just work, find me on X.",
   summary:
     "I design and build systems grounded in first principles, with a passion for advancing AI and ML research and development. I share insights and projects on X under @Sentient_Radar, focusing on Python for Data Science and AI agent development. My background includes a degree in Electronic Engineering, a Master's in Information and Communication Technology, and specialized training in AI and ML. I’ve contributed to startups and served as an SRE in the financial sector, with hands-on experience in innovative projects, including my first ML hackathon.",
-  avatarUrl: "https://media.licdn.com/dms/image/v2/C4D03AQFffiN3l93H8g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1655726289562?e=1730937600&v=beta&t=JCE7_qIX1DycwMPldP1KWV6zzXpQDBDV8Bz1773p84U",
+  avatarUrl: "/avatar.jpg",
   skills: [
     "Python for Data Science",
     "Data Analysis",
@@ -218,7 +218,7 @@ export const DATA = {
       image: "",
       video: "",
     },
- ],
+  ],
   hackathons: [
     {
       title: "MIT IDSS",
