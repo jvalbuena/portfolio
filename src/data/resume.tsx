@@ -3,24 +3,24 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Julian Valbuena",
-  initials: "https://www.jvev.link/",
+  initials: "JV",
   url: "https://jv.io",
   location: "Sydney, AU",
   locationLink: "https://www.google.com/maps/place/sydney",
   description:
-    "System's Engineer(SRE), I love solving problems and building products that just work, find me on X.",
+    "Infrastructure engineer exploring AI and ML. Building systems that work reliably and solve real problems.",
   summary:
-    "I design and build systems grounded in first principles, with a passion for advancing AI and ML research and development. I share insights and projects on X under @Sentient_Radar, focusing on Python for Data Science and AI agent development. My background includes a degree in Electronic Engineering, a Master's in Information and Communication Technology, and specialized training in AI and ML. I’ve contributed to startups and served as an SRE in the financial sector, with hands-on experience in innovative projects, including my first ML hackathon.",
+    "I build systems grounded in first principles—starting from reliable infrastructure and evolving toward AI-driven solutions. With roots in cloud engineering and site reliability, I’m now exploring how machine learning can create meaningful products. I share experiments and learnings on X (@mrer42), focusing on practical AI applications and Python for data science. Formally trained in Electronic Engineering and Information Communication Technology, with recent specialized training in AI/ML. I enjoy building in public, learning from the community, and contributing to projects that have real impact.",
   avatarUrl: "/avatar.jpg",
   skills: [
-    "Python for Data Science",
-    "Data Analysis",
-    "ML Algorithms",
-    "LLM tunning",
     "Python",
-    "Docker",
-    "Kubernetes",
-    "SRE"
+    "Machine Learning",
+    "Data Science & Analysis",
+    "AI Agents & LLMs",
+    "Kubernetes & Docker",
+    "Infrastructure & SRE",
+    "System Design",
+    "Cloud Architecture"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -46,7 +46,7 @@ export const DATA = {
       },
       X: {
         name: "X",
-        url: "https://x.com/Sentient_Radar",
+        url: "https://x.com/mrer42",
         icon: Icons.x,
 
         navbar: true,
@@ -70,18 +70,18 @@ export const DATA = {
     {
       company: "CommBank",
       href: "https://www.commbank.com.au/",
-      badges: [],
+      badges: ["Kubernetes", "EKS", "System Reliability", "Cost Optimization"],
       location: "Hybrid",
       title: "Principal Engineer",
       logoUrl: "https://www.commbank.com.au/content/dam/commbank/commBank-logo.svg",
       start: "July 2013",
       end: "Current",
       description:
-        "Modernising and migrating apps to EKS, solving performance and reliability issues, optimising for cost.",
+        "Leading platform modernization efforts by migrating applications to EKS, improving system reliability, and optimizing infrastructure costs. Working on large-scale distributed systems supporting millions of customers.",
     },
     {
       company: "Ninefold",
-      badges: [],
+      badges: ["PaaS", "Ruby on Rails", "Cloud Infrastructure"],
       href: "https://en.wikipedia.org/wiki/Ninefold",
       location: "Hybrid",
       title: "Cloud Engineer",
@@ -89,26 +89,26 @@ export const DATA = {
       start: "January 2012",
       end: "July 2013",
       description:
-        "Custom build PaaS platform for Ruby on Rails applications.",
+        "Built and maintained a custom Platform-as-a-Service for Ruby on Rails applications, handling infrastructure abstractions and enabling developer productivity at scale.",
     },
     {
       company: "Nextgen",
       href: "https://nextgen.net/#!/home",
-      badges: [],
+      badges: ["Virtualization", "Cloud Migration", "Infrastructure"],
       location: "Sydney, NSW",
       title: "Infrastructure Engineer",
       logoUrl: "https://nextgen.net/assets/images/Home/nextgen-logo.png",
-      start: "January 2012",
-      end: "April 2008",
+      start: "April 2008",
+      end: "January 2012",
       description:
-        "P2V and V2V migrations of applications to private cloud, storage and network engineering.",
+        "Engineered and executed large-scale P2V and V2V migrations to private cloud environments. Managed storage and network infrastructure supporting critical business operations.",
     }
   ],
   education: [
     {
       school: "MIT IDSS",
       href: "https://idss.mit.edu/academics/idssx/",
-      degree: "https://eportfolio.mygreatlearning.com/julian-valbuena",
+      degree: "AI & Machine Learning Specialization",
       logoUrl: "https://idss.mit.edu/wp-content/themes/idss%202015/images/mit-idss-mobile.jpg",
       start: "2023",
       end: "2024",
@@ -137,12 +137,13 @@ export const DATA = {
       dates: "Aug 2024 - Sep 2024",
       active: true,
       description:
-        "I'm trying out a fully local research agent, this agent will research any topic and write down a few paragraphs it has the ability to search the web for information and write about it. It works relatively ok on macbook M3 series.",
+        "Built a fully local research agent that explores any topic, synthesizes information, and generates summaries without relying on external APIs. The agent can search the web for context and works efficiently on Apple Silicon hardware. An experiment in privacy-preserving AI.",
       technologies: [
-        "crewai.js",
+        "CrewAI.js",
         "Node.js",
         "Magic UI",
-        "ollama"
+        "Ollama",
+        "Local LLMs"
       ],
       links: [
         {
@@ -155,17 +156,17 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Classification Model",
+      title: "Customer Satisfaction Prediction Model",
       href: "https://docs.google.com/presentation/d/e/2PACX-1vSnuusiMWIUSzOTgEyVGHEgzqSEiOYWhFrtJx13F-Ltiz6yFwYSs6X6pVNZZbilV-ScllJ0ll0WiaCK/embed?start=true&loop=false&delayms=3000",
       dates: "Feb 2024",
       active: false,
       description:
-        "Developed a classification model, performed EDA, build a decision trees and Random Forests",
+        "Developed and trained a classification model for predicting passenger satisfaction on high-speed rail. Performed exploratory data analysis, engineered features, and compared decision trees and random forests. Learned the importance of data quality and feature engineering.",
       technologies: [
-        "RAG",
         "Python",
+        "Scikit-learn",
+        "Pandas",
         "Google Colab",
-        "GPU",
         "PineconeDB"
       ],
       links: [
@@ -184,16 +185,17 @@ export const DATA = {
       dates: "Oct 2024",
       active: true,
       description:
-        "CrewAI multi-agent research crew, runs locally with ollama",
+        "A multi-agent research crew that leverages specialized roles to investigate topics in depth. Runs entirely locally with Ollama, demonstrating how agent architectures can distribute complex tasks effectively.",
       technologies: [
         "CrewAI",
         "Python",
-        "Serper.dev",
-        "GPU",
+        "Serper API",
+        "Ollama",
+        "Local Inference"
       ],
       links: [
         {
-          type: "CrewAI Helper Crew",
+          type: "Explore on GitHub",
           href: "https://github.com/jvalbuena/ai",
           icon: <Icons.globe className="size-3" />,
         },
@@ -202,12 +204,12 @@ export const DATA = {
       video: "",
     },
     {
-      title: "er-med-assist",
+      title: "ER Medical Assistant",
       href: "https://er-med-assist-sentientradar.replit.app",
-      dates: "",
+      dates: "Ongoing",
       active: true,
-      description: "An AI enabled platform aimed at providing Doctors and Patients control over their health journey.",
-      technologies: ["AI", "Web Platform", "Healthcare"],
+      description: "An AI-powered platform exploring how technology can support doctors and patients in managing health journeys more effectively. Focused on practical applications of AI in healthcare with a human-centered design approach.",
+      technologies: ["AI", "React", "Web Platform", "Healthcare"],
       links: [
         {
           type: "Live Demo",
@@ -221,21 +223,21 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "MIT IDSS",
+      title: "MIT IDSS Hackathon - Shinkansen Satisfaction Prediction",
       dates: "Feb 09th - 11th, 2024",
       location: "Remote",
       description:
-        "Developed a prediction model to predict customer satisfaction for passengers in the Shinkansen, 1st runner up",
+        "Built a machine learning pipeline to predict customer satisfaction for Shinkansen passengers. Finished as 1st runner-up. The experience reinforced the importance of understanding business context and user needs when building predictive models.",
       image:
         "https://photos.app.goo.gl/2FjZqVZ7EdArrCf58",
       mlh: "",
       links: [],
     },
     {
-      title: "X-ray lite",
+      title: "X-ray Lite - Lightweight Medical Image Analysis",
       dates: "March 2025",
       location: "Sydney, Australia",
-      description: "Developed a lightweight X-ray analysis tool using AI.",
+      description: "Developed an accessible tool for basic X-ray image analysis using AI. Focused on making medical AI approachable and understanding the challenges of deploying AI in resource-constrained settings.",
       image: "",
       mlh: "",
       links: [
