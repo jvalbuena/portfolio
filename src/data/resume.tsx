@@ -132,6 +132,31 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "RadGround",
+      href: "https://x.com/mrer42",
+      dates: "Currently Building",
+      active: true,
+      description:
+        "A training platform for radiology specialists. Trainees read real MRI cases in an interactive multi-planar viewer, write their own report, then go head-to-head with an AI guide and expert findings—turning every scan into deliberate practice. **Interested? DM me on X.**",
+      technologies: [
+        "Next.js",
+        "MedGemma",
+        "NiiVue",
+        "Streamlit",
+        "PostgreSQL",
+        "Medical AI",
+      ],
+      links: [
+        {
+          type: "DM me on X",
+          href: "https://x.com/mrer42",
+          icon: <Icons.x className="size-3" />,
+        },
+      ],
+      image: "/radground.jpg",
+      video: "",
+    },
+    {
       title: "Research Agent - Local LLM",
       href: "https://github.com/jvalbuena/ollama-local-ui",
       dates: "Aug 2024 - Sep 2024",
@@ -245,6 +270,22 @@ export const DATA = {
           type: "Live Demo",
           href: "https://xray-lite.replit.app/",
           icon: <Icons.globe className="size-3" />,
+        },
+      ],
+    },
+    {
+      title: "Claude Skills - Personal Skills Compilation",
+      dates: "2025",
+      location: "Open Source",
+      description:
+        "A curated compilation of my personal Claude skills—reusable workflows and prompts for automating engineering and productivity tasks. Built in public and shared with the community.",
+      image: "",
+      mlh: "",
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/jvalbuena/claude-skills/tree/main",
+          icon: <Icons.github className="size-3" />,
         },
       ],
     },
